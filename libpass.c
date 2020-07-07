@@ -25,8 +25,8 @@ int main( )
 	char sa[60];
 	char sb[60];
 	char sc[30];
-	 
-	 
+	 	 
+fp = NULL;
 	 
 printf(" \n Master password: ");
 scanf(" %[^\n]%*c", sc);
@@ -134,7 +134,7 @@ if (strcmp(sc, masterpass) == 0) {
           break;   	            
                }
 	}
-fclose(fp); 
+if (fp != NULL){ fclose(fp); }
 }
 else { printf("\n Invalid password!");}
 return 0;

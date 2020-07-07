@@ -29,7 +29,9 @@ This project is develop in pure C language and compiled in [GCC 7.5](https://gcc
 - [ ] Search engine
 - [ ] Github blog and tutorial
 
-## 4. Screenshots 
+## 4. Screenshots and instructions
+
+The first step to start the program is read the file **libpass.dat** by choosing the **r **option from the main menu. If the file does not exist, the program will ask you to create a new library file.
 
 The **l** option from the main menu will list the 20 services and their ID number. 
 
